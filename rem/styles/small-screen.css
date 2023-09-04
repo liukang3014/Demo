@@ -1,0 +1,14 @@
+/* styles/small-screen.css */
+
+/* 小屏幕样式 */
+.header {
+    background-color: #777;
+    color: #fff;
+    padding: 10px;
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 10px;
+}

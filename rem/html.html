@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自适应页面</title>
+    <style>
+        html {
+            font-size: 16px;
+        }
+
+        .all {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .list {
+            flex: 1; /* 让 .list 均分可用空间 */
+            width:2rem;/* 33.33% 减去间距 */
+            margin: 1rem;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="list">
+            <h1>这是rem</h1>
+        </div>
+        <div class="list">
+            <h1>这是rem</h1>
+        </div>
+        <div class="list">
+            <h1>这是rem</h1>
+        </div>
+    </div>
+</body>
+
+</html>

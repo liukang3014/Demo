@@ -1,0 +1,14 @@
+/* styles/medium-screen.css */
+
+/* 中等屏幕样式 */
+.header {
+    background-color: #555;
+    color: #fff;
+    padding: 15px;
+}
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 15px;
+}
